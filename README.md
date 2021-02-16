@@ -1,1 +1,1 @@
-# shauna.githib.io
+# shauna.github.io
