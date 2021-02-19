@@ -1,3 +1,4 @@
 # shauna.github.io
 
-I am tryin out Github pages thank u have a nice day
+What's here:
+-[My HTML Boilerplate](https://shkeating.github.io/html-boilerplate/index.html)
