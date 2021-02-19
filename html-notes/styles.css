@@ -75,8 +75,8 @@ button {
     border-radius: 10px;
 }
 
-button:focus {
-    outline: red;
+*:focus {
+    outline: 5px #ff009b solid;
 }
 footer {
     color: #ffc3f2;
