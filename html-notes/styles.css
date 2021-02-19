@@ -28,11 +28,12 @@ body {
     font-family: 'BioRhyme', Garamond, Times, serif;
     background: url('background.jpg');
     background-attachment: fixed;
+    background-size: cover;
 }
 
 h1, h2 {
-    color: #ad1401;
-    background: #28c5ee;
+    color: #ffc3f2;
+    background: #9c2d8a;
     display: block;
     float: left;
     padding: 4px;
@@ -49,14 +50,24 @@ textarea {
 }
 
 button {
-    clear: both;
+    background: #ffc119;
+    color: #8f1f7d;
+    font-family: 'Source code Pro', 'Courier New', Courier, monospace;
+    font-size: large;
+    margin: 20px 0;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 10px;
 }
 
+button:focus {
+    outline: red;
+}
 footer {
     position: absolute;
     bottom: 0;
-    background: #000;
-    color: yellow;
+    color: #ffc3f2;
+    background: #9c2d8a;
     margin-left: -50px;
     width: 100vw;
     padding: 20px;;
