@@ -19,19 +19,26 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-html, body{
-    overflow-x: hidden;
-}
-
 body {
-    padding: 40px;
     font-family: 'BioRhyme', Garamond, Times, serif;
     background: url('background.jpg');
     background-attachment: fixed;
     background-size: cover;
+    margin: 0;
 }
 
-h1, h2 {
+main, header {
+    padding: 0 40px;
+}
+
+h1 {
+    color: #010028;
+    font-size: 4em;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+h2 {
     color: #ffc3f2;
     background: #9c2d8a;
     display: block;
@@ -64,11 +71,9 @@ button:focus {
     outline: red;
 }
 footer {
-    position: absolute;
-    bottom: 0;
     color: #ffc3f2;
     background: #9c2d8a;
-    margin-left: -50px;
-    width: 100vw;
     padding: 20px;;
+    position: relative;
+    bottom: 0;
 }
