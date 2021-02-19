@@ -1,0 +1,7 @@
+/* boileplate page styles */
+
+textarea {
+    width: 80vw;
+    height: 50vh;
+    margin: 0 auto;
+}
