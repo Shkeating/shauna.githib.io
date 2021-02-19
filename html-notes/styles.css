@@ -25,6 +25,10 @@ body {
     background-attachment: fixed;
     background-size: cover;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
 }
 
 main, header {
@@ -45,6 +49,10 @@ h2 {
     float: left;
     padding: 4px;
     border-radius: 4px;
+}
+
+main {
+    height: 100%;
 }
 textarea {
     width: 80vw;
@@ -74,6 +82,4 @@ footer {
     color: #ffc3f2;
     background: #9c2d8a;
     padding: 20px;;
-    position: relative;
-    bottom: 0;
 }
