@@ -24,17 +24,29 @@ body {
     padding: 40px;
     font-family: 'BioRhyme', Garamond, Times, serif;
     background: url('background.jpg');
+    background-attachment: fixed;
 }
 
 h1, h2 {
     color: red;
     background: white;
+    display: block;
+    float: left;
+    padding: 4px;
+    border-radius: 4px;
 }
 textarea {
     width: 80vw;
     height: 50vh;
     margin: 0 auto;
     font-family: 'Source code Pro','Courier New', Courier, monospace;
+    background: #010028;
+    color: #ffc119;
+    padding: 10px;
+}
+
+button {
+    clear: both;
 }
 
 footer {
