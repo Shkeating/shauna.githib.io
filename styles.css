@@ -5,7 +5,7 @@
   --pink: #ff00e5;
 }
 
-@keyframes colorGradient {
+@keyframes gradText {
   0% {
     color: var(--turq);
   }
@@ -40,7 +40,7 @@ body {
 h1 {
   font-family: delittle-chromatic-outline, sans-serif;
   text-align: center;
-  animation: colorGradient 5s infinite;
+  animation: gradText 5s infinite;
   font-size: 3em;
 }
 
