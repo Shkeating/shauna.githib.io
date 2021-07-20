@@ -40,7 +40,7 @@ body {
 h1 {
   font-family: delittle-chromatic-outline, sans-serif;
   text-align: center;
-  animation: gradText 5s infinite;
+  animation: gradText 8s infinite;
   font-size: 3em;
 }
 
@@ -52,6 +52,29 @@ main {
 
 button {
   margin: 1em;
+  background: transparent;
+  border-radius: 5px;
+  border: 3px solid var(--pink);
+  padding: 1em;
+  font-family: oskar, sans-serif;
+  font-size: 1.5em;
+  width: 33vw;
+  min-width: 300px;
+}
+
+.💧 button {
+  color: var(--turq);
+  border-color: var(--turq);
+}
+
+.🌞 button {
+  color: var(--yellow);
+  border-color: var(--yellow);
+}
+
+.🌸 button {
+  color: var(--pink);
+  border-color: var(--pink);
 }
 
 footer {
