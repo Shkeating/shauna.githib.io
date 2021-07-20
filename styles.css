@@ -35,6 +35,21 @@
   }
 }
 
+@keyframes gradOutline {
+  0% {
+    outline: var(--turq) 3px solid;
+  }
+  33% {
+    outline: var(--yellow) 3px solid;
+  }
+  66% {
+    outline: var(--pink) 3px solid;
+  }
+  100% {
+    outline: var(--turq) 3px solid;
+  }
+}
+
 /* styling rules */
 html,
 body {
@@ -93,10 +108,24 @@ button {
   border-color: var(--pink);
 }
 
-button:hover,
-button:focus {
+button:hover {
   color: black;
   animation: gradBg 2s infinite;
+}
+
+button:focus {
+  color: black;
+  animation: gradOutline 2s infinite, gradBg 2s infinite;
+  outline-offset: 3px;
+}
+
+.💧 button:hover,
+.💧 button:focus,
+.🌸 button:hover,
+.🌸 button:focus,
+.🌞 button:hover,
+.🌞 button:focus {
+  border-color: black;
 }
 
 footer {
