@@ -1,4 +1,4 @@
-/* variables, mixins, animations */
+/* variables, animations */
 :root {
   --turq: #00ffe9;
   --yellow: #e9ff00;
@@ -27,7 +27,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: black;
-  color: turquoise;
+  color: var(--turq);
 }
 
 .container {
