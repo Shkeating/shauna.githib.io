@@ -1,13 +1,22 @@
 /* variables, mixins, animations */
+:root {
+  --turq: #00ffe9;
+  --yellow: #e9ff00;
+  --pink: #ff00e5;
+}
+
 @keyframes colorGradient {
   0% {
-    color: #00ffe9;
+    color: var(--turq);
   }
-  50% {
-    color: #e9ff00;
+  33% {
+    color: var(--yellow);
+  }
+  66% {
+    color: var(--pink);
   }
   100% {
-    color: #ff00e5;
+    color: var(--turq);
   }
 }
 
@@ -31,6 +40,8 @@ body {
 h1 {
   font-family: delittle-chromatic-outline, sans-serif;
   text-align: center;
+  animation: colorGradient 5s infinite;
+  font-size: 3em;
 }
 
 main {
