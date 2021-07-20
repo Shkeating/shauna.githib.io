@@ -3,6 +3,8 @@ body {
   font-family: oskar, sans-serif;
   width: 100%;
   height: 100%;
+  background-color: black;
+  color: turquoise;
 }
 
 .container {
@@ -13,12 +15,20 @@ body {
 }
 
 h1 {
-  text-align: center;
   font-family: delittle-chromatic-outline, sans-serif;
+  text-align: center;
 }
 
 main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin: 1em;
+}
+
+footer {
+  text-align: center;
 }
