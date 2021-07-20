@@ -20,6 +20,21 @@
   }
 }
 
+@keyframes gradBg {
+  0% {
+    background-color: var(--turq);
+  }
+  33% {
+    background-color: var(--yellow);
+  }
+  66% {
+    background-color: var(--pink);
+  }
+  100% {
+    background-color: var(--turq);
+  }
+}
+
 /* styling rules */
 html,
 body {
@@ -60,6 +75,7 @@ button {
   font-size: 1.5em;
   width: 33vw;
   min-width: 300px;
+  transition: all 0.5s ease;
 }
 
 .💧 button {
@@ -75,6 +91,12 @@ button {
 .🌸 button {
   color: var(--pink);
   border-color: var(--pink);
+}
+
+button:hover,
+button:focus {
+  color: black;
+  animation: gradBg 2s infinite;
 }
 
 footer {
