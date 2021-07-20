@@ -1,3 +1,17 @@
+/* variables, mixins, animations */
+@keyframes colorGradient {
+  0% {
+    color: #00ffe9;
+  }
+  50% {
+    color: #e9ff00;
+  }
+  100% {
+    color: #ff00e5;
+  }
+}
+
+/* styling rules */
 html,
 body {
   font-family: oskar, sans-serif;
