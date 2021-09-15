@@ -80,6 +80,8 @@ main {
   align-items: center;
 }
 
+/* button styles */
+
 button {
   margin: 1em;
   background: transparent;
@@ -130,4 +132,9 @@ button:focus {
 
 footer {
   text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
 }
