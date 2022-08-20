@@ -1,10 +1,10 @@
 ---
-title: Mobile app
-subtitle: High-fidelity mobile app designs for a super awesome social media company.
-date: 2019-07-24 00:00:00
-description: This is a demo post that shows what you can do inside portfolio and blog posts. We’ve included everything you need to create engaging posts and case studies to show off your work in a beautiful way.
+title: Radio Kingston 
+subtitle: design pattern library for mid size customer generated content platform serving enterprise clientele
+date: 2018-05-02 00:00:00
+description: In 2019, I was working in an internal role on the product team at TurnTo Networks. My main role on the team was to reverse engineer a Sketch Library and detailed documentation in InVision Design System Manager from exisiting designs, to make them easier to iterate on, and to ensure a smooth handoff of components to the engineering team.
 featured_image: demo.jpg
-accent_color: '#4C60E6'
+accent_color: '#006268'
 gallery_images:
   - demo.jpg
   - demo.jpg

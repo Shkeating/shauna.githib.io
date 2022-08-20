@@ -59,13 +59,16 @@
 
 .hero__background {
 	display: block;
-	position: absolute;
+	position: fixed;
 	top: 0px;
 	left: 50%;
 	transform: translateX(-50%);
 	z-index: -1;
 	max-width: 190%;
 	display: none;
+	filter:blur(5px);
+	margin-left: -20px;
+	border: black 5px solid;
 
 	@include mq(tabletp) {
 		display: block;
