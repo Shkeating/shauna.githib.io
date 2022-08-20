@@ -3,15 +3,17 @@ basic_settings:
   favicon_image: favicon.ico
 
 header_settings:
-  logo_image: 
-  logo_width: 100
+  logo_image: https://avatars.githubusercontent.com/u/59394696
+  logo_width: 150
 
 menu_settings:
   menu_items:
     - title: 'Projects'
       url: '/'
-    - title: 'Blog'
-      url: '/blog/'
+    - title: 'Writing'
+      url: '/writing/'
+    - title: 'Speaking'
+      url: '/speaking/'
 
 footer_settings:
   logo_image: 

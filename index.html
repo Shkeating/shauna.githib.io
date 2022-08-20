@@ -2,7 +2,7 @@
 layout: default
 overtitle: Hi there!
 title:
-description: Show off your best work with this beautiful, minimal and customizable portfolio theme.
+description: I am a UX designer and engineer specializing in creating accessible design systems.
 featured_image: /images/social.jpg
 ---
 
@@ -11,8 +11,6 @@ featured_image: /images/social.jpg
 	{% if site.data.settings.hero_settings.background_image %}
 	<img src="{{ site.data.settings.hero_settings.background_image | relative_url }}" class="hero__background" draggable="false">
 	{% endif %}
-
-	{% include section__about.html %}
 
 	<section class="hero">
 		<div class="wrap grid">
@@ -58,6 +56,7 @@ featured_image: /images/social.jpg
 		</div>
 	</section>
 
+	{% include section__about.html %}
 	
 
 	<section class="recent-posts">
